@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+SpeedTracker/.idea/
+
+SpeedTracker/.vscode/
+
+SpeedTracker/cmake-build-debug/
+
+SpeedTracker/.pio/
