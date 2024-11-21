@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.29)
 project(SpeedTracker)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
 add_executable(SpeedTracker
-    include/SpeedTracker.h
-    src/LiftTracker.cpp
-    src/main.cpp)
+        src/SensorManager.cpp
+        src/BLEManager.cpp
+        src/DataProcessor.cpp
+        src/main.cpp)
